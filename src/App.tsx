@@ -9,14 +9,14 @@ function App() {
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
-            alt="Elegant hair salon interior"
+            alt="Faith Hair Design and Beauty"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
         
         <nav className="relative z-10 flex justify-between items-center px-6 py-4">
-          <div className="text-white text-2xl font-serif">Elegance</div>
+          <div className="text-white text-2xl font-serif">Faith</div>
           <div className="hidden md:flex space-x-8 text-white">
             <a href="#about" className="hover:text-gray-300">About</a>
             <a href="#services" className="hover:text-gray-300">Services</a>
@@ -27,7 +27,7 @@ function App() {
         </nav>
 
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-          <h1 className="text-5xl md:text-7xl font-serif text-white mb-6">Elegance Hair Salon</h1>
+          <h1 className="text-5xl md:text-7xl font-serif text-white mb-6">Faith Hair Design and Beauty</h1>
           <p className="text-xl text-gray-200 mb-8">Where Style Meets Sophistication</p>
           <a
             href="#book"
@@ -43,9 +43,9 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-serif mb-6">Welcome to Elegance</h2>
+              <h2 className="text-4xl font-serif mb-6">Welcome to Faith</h2>
               <p className="text-gray-600 mb-6">
-                Since 2010, Elegance Hair Salon has been at the forefront of hair styling excellence in Central London. 
+                Since 2010, Faith Hair Design and Beauty has been at the forefront of hair styling excellence in Central London. 
                 Our team of expert stylists combines years of experience with the latest trends to create looks that 
                 enhance your natural beauty.
               </p>
@@ -185,7 +185,7 @@ function App() {
             {[
               {
                 name: "Sarah Thompson",
-                review: "Absolutely love my new hair! The team at Elegance always knows exactly what I want.",
+                review: "Absolutely love my new hair! The team at Faith always knows exactly what I want.",
                 rating: 5
               },
               {
@@ -271,13 +271,13 @@ function App() {
             </div>
           </div>
           <div className="flex justify-center space-x-6">
-            <a href="https://instagram.com" className="flex items-center hover:text-gray-600">
+{/*             <a href="https://instagram.com" className="flex items-center hover:text-gray-600">
               <Instagram className="w-5 h-5 mr-2" />
-              @elegancehair
-            </a>
-            <a href="https://facebook.com" className="flex items-center hover:text-gray-600">
+              @Faith
+            </a> */}
+            <a href="https://www.facebook.com/people/Faith-Hair-Design-and-Beauty/100054506977679/" className="flex items-center hover:text-gray-600">
               <Facebook className="w-5 h-5 mr-2" />
-              Elegance Hair
+              Faith Hair Design and Beauty
             </a>
           </div>
           <div className="mt-8">
@@ -295,9 +295,9 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-          <div className="text-2xl font-serif mb-4 md:mb-0">Elegance</div>
+          <div className="text-2xl font-serif mb-4 md:mb-0">Faith</div>
           <div className="text-sm text-gray-400">
-            © 2024 Elegance Hair Salon. All rights reserved.
+            © 2024 Faith Hair Design and Beauty. All rights reserved.
           </div>
         </div>
       </footer>
